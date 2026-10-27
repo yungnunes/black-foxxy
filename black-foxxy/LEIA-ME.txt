@@ -1,0 +1,11 @@
+BLACK FOXXY — CAMPANHA SEPARADA DO SITE PRINCIPAL
+
+Abra index.html no navegador ou use Live Server no VS Code.
+
+A cliente seleciona PASS Rosto / Corpo / Glúteos / Pele / Autocuidado, depois Essencial / Plus / Premium, e é enviada ao WhatsApp 5521970087151 com a seleção na mensagem.
+
+Esta versão não divulga preços ou pacotes inventados: a equipe informa condições atuais pelo WhatsApp.
+
+Para publicar no GitHub Pages sem alterar o site Foxxy atual, crie OUTRO repositório (ex.: black-foxxy) e envie os arquivos desta pasta.
+
+O arquivo index.html é independente: o visual e as interações estão dentro dele.

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faf4ef"><meta name="description" content="Black Foxxy: escolha seu passe por objetivo e consulte as condições especiais pelo WhatsApp.">
+<title>Black Foxxy | Escolha seu passe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--deep:#210d13;--wine:#491421;--red:#751f35;--pink:#dbc0b3;--gold:#c7a984;--cream:#f9f3ed;--muted:#c6b2b3;--line:rgba(239,218,204,.21)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--deep);color:#faf3ee;font:400 16px/1.6 'DM Sans',system-ui,sans-serif;overflow-x:hidden}button,a{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}button:focus-visible,a:focus-visible{outline:3px solid #dfc097;outline-offset:4px}.wrap{width:min(1160px,calc(100% - 42px));margin:auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);gap:20px}.brand{font-size:27px;letter-spacing:.31em;font-weight:500;line-height:1;color:#f7e6d8}.brand small{font-size:9px;display:block;letter-spacing:.37em;color:#d8b9af;margin-top:9px}.topright{display:flex;align-items:center;gap:19px}.topright .mini{font-size:11px;letter-spacing:.17em;color:#e7c8ac;text-transform:uppercase}.header-cta{font-weight:700;font-size:12px;border:1px solid #d1a888;padding:10px 18px;color:#f2dac7}.hero{min-height:600px;position:relative;overflow:hidden;background:radial-gradient(circle at 78% 46%,rgba(145,54,66,.44),transparent 29%),radial-gradient(circle at 5% 15%,rgba(134,71,78,.27),transparent 31%),linear-gradient(140deg,#2c0d17,#160b11 68%)}.hero:after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--line)}.hero-inner{display:grid;grid-template-columns:1fr .8fr;align-items:center;min-height:590px;gap:38px}.eyebrow{font-size:11px;letter-spacing:.32em;color:#e3bc96;text-transform:uppercase;font-weight:700}.hero h1,.section-heading h2,.choice-title,h3,.ending h2{font-family:'Playfair Display',Georgia,serif;font-weight:500}.hero h1{font-size:clamp(56px,6.6vw,100px);line-height:1.02;letter-spacing:-.04em;margin:25px 0 22px}.hero h1 em{font-weight:400;color:#e5c1a4}.hero p{max-width:530px;color:#e1d0cc;font-size:17px;line-height:1.8}.hero-actions{display:flex;gap:20px;flex-wrap:wrap;margin-top:35px;align-items:center}.primary{background:#e2bf9f;color:#2b111a;border:1px solid #e2bf9f;padding:15px 26px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.02em;transition:background .2s,transform .2s}.primary:hover{background:#f3dcc1;transform:translateY(-2px)}.hero-actions .note{color:#d4b9ac;font-size:13px}.hero-art{width:min(390px,100%);aspect-ratio:4/5;position:relative;margin:auto;border:1px solid rgba(221,187,153,.4);display:flex;align-items:center;justify-content:center;transform:rotate(4deg)}.hero-art:before{content:'';position:absolute;inset:13px;border:1px solid #d0a47e;transform:rotate(-7deg);background:linear-gradient(150deg,#5e2836,#2d1119 64%)}.hero-art:after{content:'';position:absolute;inset:45px;border:1px solid rgba(239,205,168,.3);border-radius:48% 48% 8px 8px}.hero-art .black{z-index:1;text-align:center;font-family:Georgia,serif;font-size:clamp(68px,8vw,125px);letter-spacing:-.11em;color:#f1d4b9;line-height:.8}.hero-art .black small{display:block;font:700 14px 'DM Sans',sans-serif;letter-spacing:.62em;margin:28px 0 0 10px}.ornament{position:absolute;top:14%;right:-7%;font-size:220px;opacity:.08;font-family:Georgia,serif}.ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;background:#32141d}.ticker p{margin:0;text-align:center;color:#dfc2b1;font-size:11px;text-transform:uppercase;letter-spacing:.24em}.section{padding:92px 0}.section-heading{text-align:center;max-width:780px;margin:0 auto 49px}.section-heading h2{font-size:clamp(33px,4.6vw,58px);line-height:1.2;margin:14px 0 16px}.section-heading p{color:#d2bec0;margin:0 auto;max-width:650px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.pass{position:relative;background:linear-gradient(145deg,#481e2a,#29121c);border:1px solid #77515a;min-height:322px;padding:31px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s,box-shadow .2s;text-align:left;color:inherit}.pass:hover{transform:translateY(-5px);border-color:#cfa27d;box-shadow:0 16px 42px #0004}.pass[aria-pressed="true"]{border:2px solid #e2bf9f;background:linear-gradient(140deg,#623042,#32141e);box-shadow:0 0 0 3px #dfbd961a}.pass[aria-pressed="true"]:after{content:'✓ SELECIONADO';position:absolute;top:15px;right:18px;color:#f2d2af;font:700 10px 'DM Sans',sans-serif;letter-spacing:.1em}.pass-no{font-size:10px;letter-spacing:.25em;color:#cfa984}.pass h3{font-size:34px;margin:25px 0 13px;color:#ffebdf;line-height:1.13}.pass p{color:#e0c9c6;font-size:13px;line-height:1.75;margin:0;max-width:300px;flex:1}.pass .choose{color:#e4bc99;letter-spacing:.12em;text-transform:uppercase;font-size:10px;font-weight:700;margin-top:26px;display:flex;justify-content:space-between;align-items:center}.pass .choose b{font-size:19px;font-weight:400}.selector{margin-top:44px;border:1px solid rgba(223,190,166,.4);background:#2d141e;padding:35px;display:grid;grid-template-columns:1fr 1.12fr;gap:40px;align-items:start}.choice-title{font-size:34px;line-height:1.2;margin:9px 0 10px}.selector p{color:#d2bfc0;font-size:14px}.chip{display:inline-block;border:1px solid #a67b79;color:#e9d0c6;padding:7px 12px;font-size:11px;margin-top:12px;letter-spacing:.08em;text-transform:uppercase}.level-label{font-size:11px;letter-spacing:.16em;color:#e0bc9f;text-transform:uppercase;font-weight:700;margin-bottom:12px}.levels{display:flex;gap:8px;flex-wrap:wrap}.level{padding:13px 17px;border:1px solid #77505b;color:#f9e7dd;background:#3e1b27;font-size:13px;font-weight:700;min-width:105px}.level[aria-pressed="true"]{background:#e2bf9f;color:#2b111a;border-color:#e2bf9f}.level-copy{min-height:70px;margin:17px 0!important}.whatsapp{width:100%;border:0;background:#e2bf9f;color:#2b111a;padding:17px 15px;font-weight:700;display:flex;justify-content:center;align-items:center;gap:10px;transition:background .2s}.whatsapp:hover{background:#f7d8b7}.whatsapp:disabled{opacity:.5;cursor:not-allowed}.smallprint{font-size:11px!important;line-height:1.7!important;margin:13px 0 0!important;color:#c8b1b2!important}.how{padding:70px 0;background:#f4e9df;color:#351821}.how .section-heading p{color:#715961}.how .eyebrow{color:#7a3343}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:45px}.step{border-top:1px solid #b18f87;padding-top:24px}.step .index{font-family:'Playfair Display',serif;font-size:34px;color:#944b58}.step h3{font-size:24px;margin:12px 0}.step p{font-size:14px;color:#634d50;line-height:1.7}.ending{text-align:center;padding:83px 20px;background:linear-gradient(90deg,#32131d,#4a1829,#32131d)}.ending h2{font-size:clamp(30px,4vw,50px);margin:12px 0}.ending p{color:#dac1c4;max-width:600px;margin:0 auto 28px}.ending a{display:inline-flex}.footer{padding:30px 0;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#bea7ab;font-size:12px;border-top:1px solid var(--line)}.footer strong{font-size:17px;letter-spacing:.2em;color:#ecd7ca;font-weight:500}.footer a{text-decoration:underline;text-underline-offset:3px}.visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:950px){.cards{grid-template-columns:repeat(2,1fr)}.hero-inner{grid-template-columns:1fr .65fr}.selector{grid-template-columns:1fr;gap:20px}.hero-art{max-width:300px}}@media(max-width:650px){.wrap{width:min(100% - 28px,1160px)}.topbar{height:70px}.brand{font-size:22px}.topright .mini{display:none}.header-cta{padding:9px 11px;font-size:11px}.hero-inner{display:block;padding:73px 0 65px;min-height:unset}.hero h1{font-size:clamp(55px,16vw,80px)}.hero p{font-size:15px}.hero-art{display:none}.section{padding:64px 0}.cards{grid-template-columns:1fr;gap:12px}.pass{min-height:235px;padding:24px}.pass h3{margin:17px 0 9px}.pass .choose{margin-top:16px}.section-heading{margin-bottom:32px}.selector{margin-top:25px;padding:24px 17px}.choice-title{font-size:29px}.level{flex:1;min-width:0;padding:13px 10px;font-size:12px}.steps{grid-template-columns:1fr;gap:15px;margin-top:28px}.step{padding-top:17px}.step h3{margin:6px 0}.how{padding:56px 0}.ticker p{font-size:9px;letter-spacing:.08em}.footer{flex-direction:column;align-items:flex-start}.ending{padding:63px 17px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Edição Black Foxxy clara — nude, blush, vinho e dourado suave */
+:root{--deep:#fbf7f3;--wine:#401016;--red:#751f35;--pink:#d8bdaf;--gold:#a27752;--cream:#fffaf5;--muted:#705a60;--line:#e8d9d0}
+body{background:#fbf7f3;color:#38252a}
+.topbar{border-bottom-color:#eadbd2;background:#fbf7f3}
+.brand{color:#401016}.brand small{color:#7b5d64}
+.topright .mini{color:#86636b}.header-cta{border-color:#6d1524;color:#6d1524;background:#fffaf7}.header-cta:hover{background:#f2e0d8}
+.hero{background:radial-gradient(circle at 80% 35%,#e9c9b9 0,transparent 37%),linear-gradient(115deg,#fffaf5 0%,#f8ece5 48%,#f1dbcf 100%)}
+.hero:after{background:#e7d4c9}
+.eyebrow{color:#823c4a}
+.hero h1{color:#401016}.hero h1 em{color:#9f6470}
+.hero p{color:#725a5e}.hero-actions .note{color:#846d70}
+.primary,.whatsapp{background:#6d1524;color:#fff9f5;border-color:#6d1524}
+.primary:hover,.whatsapp:hover{background:#401016;color:#fff}
+.hero-art{border-color:#ba8f7b}
+.hero-art:before{border-color:#c99f8e;background:linear-gradient(145deg,#f8e9e1,#ebcabc 68%,#ddb09f)}
+.hero-art:after{border-color:#bb8b7d}
+.hero-art .black{color:#6d1524}.ornament{color:#6d1524}
+.ticker{background:#ead7cc;border-color:#d9bfb2}.ticker p{color:#67434b}
+.section{background:#fbf7f3}.section-heading h2,.choice-title{color:#401016}.section-heading p{color:#715e61}
+.pass{background:linear-gradient(150deg,#fffdfb,#f6e8e1);border:1px solid #e6cec2;color:#401016;box-shadow:0 7px 25px rgba(64,16,22,.035)}
+.pass:hover{border-color:#a77672;box-shadow:0 16px 40px rgba(64,16,22,.12)}
+.pass[aria-pressed="true"]{background:linear-gradient(150deg,#fff7f2,#eed9cf);border:2px solid #6d1524;box-shadow:0 0 0 3px rgba(109,21,36,.08)}
+.pass[aria-pressed="true"]:after{color:#6d1524}
+.pass-no{color:#a37668}.pass h3{color:#401016}.pass p{color:#705b5e}.pass .choose{color:#7b3042}
+.selector{background:#f4e6de;border:1px solid #d9bcb0}
+.selector p{color:#70595e}.chip{border-color:#bc988a;color:#6d1524;background:#fff9f6}
+.level-label{color:#733441}.level{background:#fffaf6;border-color:#d7bfb6;color:#512d36}
+.level:hover{background:#f8eee8}.level[aria-pressed="true"]{background:#6d1524;border-color:#6d1524;color:#fff}
+.smallprint{color:#816c70!important}
+.how{background:#f0e2d9}.how .section-heading p{color:#70585d}
+.ending{background:linear-gradient(120deg,#ead1c4,#f8eee7 52%,#dfbfb1);color:#401016}
+.ending h2{color:#401016}.ending p{color:#6b535a}.ending .eyebrow{color:#7b3042}
+.footer{color:#7a646a;border-top-color:#e6d5cc;background:#fbf7f3}.footer strong{color:#401016}
+@media(max-width:650px){.hero{background:linear-gradient(145deg,#fffaf5,#f1ded4)}.pass{min-height:235px}}
+
+
+
+/* Ajuste final solicitado: paleta prioritariamente nude e creme */
+:root{--cream:#fffaf4;--pink:#ead7c8;--gold:#b89b7a;--line:#e7d8cb}
+body{background:#fffaf4;color:#493239}
+.topbar{background:#fffaf4;border-bottom:1px solid #ecded3}
+.brand{color:#491421}.brand small{color:#8c6d69}
+.topright .mini{color:#78575f}.header-cta{color:#6d1524;border-color:#cda99b;background:#f8eee6}
+.hero{background:radial-gradient(circle at 78% 42%,#ecd5c5 0,transparent 40%),linear-gradient(135deg,#fffaf4 0%,#f7ecdf 58%,#ead7ca 100%)}
+.hero h1{color:#401016}.hero h1 em{color:#a87869}.hero p{color:#745d5f}.eyebrow{color:#805451}
+.hero-art{border-color:#c6a395}.hero-art:before{background:linear-gradient(145deg,#fbf2e9,#ebd1c1);border-color:#d3b7a6}.hero-art:after{border-color:#d0b2a4}.hero-art .black{color:#6d1524}
+.ticker{background:#efe0d4;border-color:#e1cfc2}.ticker p{color:#79575a}
+.section{background:#fffaf4}.section-heading p{color:#786466}
+.pass{background:#fffdfa;border:1px solid #e7d8cc;box-shadow:0 8px 30px rgba(64,16,22,.04)}
+.pass:nth-child(even){background:#f9f0e8}.pass h3{color:#4c1927}.pass p{color:#756266}
+.pass[aria-pressed=true]{background:#f4e6d9;border-color:#6d1524}
+.selector{background:#f6eae0;border:1px solid #e1cbbd}.selector p{color:#765f63}
+.level{background:#fffdf9;border-color:#d9c0b1;color:#4a2b34}
+.how{background:#f4e6d9}.ending{background:linear-gradient(115deg,#f0dfd2,#fff8f0,#ead7c8)}
+.footer{background:#fffaf4;border-top-color:#e9dacd;color:#766369}
+@media(max-width:650px){.hero{background:linear-gradient(145deg,#fffaf4,#f3e4d8)}}
+</style>
+</head>
+<body>
+<header class="wrap topbar"><a class="brand" href="#inicio" aria-label="Black Foxxy - início">FOXXY<small>ESPAÇO DE BELEZA</small></a><div class="topright"><span class="mini">Edição especial</span><a class="header-cta" href="#passes">ESCOLHER MEU PASS ↗</a></div></header>
+<main>
+<section id="inicio" class="hero"><div class="wrap hero-inner"><div><div class="eyebrow">A campanha mais esperada da Foxxy</div><h1>BLACK<br><em>FOXXY.</em></h1><p>Você não precisa escolher uma promoção em uma lista. Escolha o que deseja cuidar — e descubra um passe pensado para o seu momento.</p><div class="hero-actions"><a href="#passes" class="primary">DESCOBRIR MEU PASS <span aria-hidden="true">↗</span></a><span class="note">Cinco caminhos. O seu momento.</span></div></div><div class="hero-art" aria-hidden="true"><div class="ornament">✧</div><div class="black">BF<small>BLACK FOXXY</small></div></div></div></section>
+<div class="ticker"><p>✦ &nbsp; BELEZA COM PROPÓSITO &nbsp; ✦ &nbsp; CONDIÇÕES ESPECIAIS &nbsp; ✦ &nbsp; UMA BLACK PARA VOCÊ &nbsp; ✦</p></div>
+<section class="section" id="passes"><div class="wrap"><div class="section-heading"><div class="eyebrow">Escolha sua experiência</div><h2>Qual PASS combina com o que você quer cuidar agora?</h2><p>Escolha seu objetivo. Depois, selecione um nível para consultar as condições da Black diretamente com nossa equipe.</p></div>
+<div class="cards" id="passCards" role="group" aria-label="Escolha seu passe">
+<button class="pass" data-pass="Rosto" aria-pressed="false"><span class="pass-no">01 / SUA EXPRESSÃO</span><h3>PASS<br>ROSTO</h3><p>Para quem deseja valorizar a expressão, o contorno e a harmonia do rosto.</p><span class="choose">ESCOLHER ROSTO <b aria-hidden="true">↗</b></span></button>
+<button class="pass" data-pass="Corpo" aria-pressed="false"><span class="pass-no">02 / SEU CONTORNO</span><h3>PASS<br>CORPO</h3><p>Para quem busca cuidar da silhueta, firmeza e definição corporal.</p><span class="choose">ESCOLHER CORPO <b aria-hidden="true">↗</b></span></button>
+<button class="pass" data-pass="Glúteos" aria-pressed="false"><span class="pass-no">03 / SUAS CURVAS</span><h3>PASS<br>GLÚTEOS</h3><p>Para quem quer conversar sobre firmeza, textura e contorno da região.</p><span class="choose">ESCOLHER GLÚTEOS <b aria-hidden="true">↗</b></span></button>
+<button class="pass" data-pass="Pele" aria-pressed="false"><span class="pass-no">04 / SEU BRILHO</span><h3>PASS<br>PELE</h3><p>Para quem deseja uma rotina de cuidados voltada à textura, viço e renovação da pele.</p><span class="choose">ESCOLHER PELE <b aria-hidden="true">↗</b></span></button>
+<button class="pass" data-pass="Autocuidado" aria-pressed="false"><span class="pass-no">05 / SEU TEMPO</span><h3>PASS<br>AUTOCUIDADO</h3><p>Para quem quer reservar um momento de relaxamento, leveza e bem-estar.</p><span class="choose">ESCOLHER AUTOCUIDADO <b aria-hidden="true">↗</b></span></button>
+</div>
+<div id="montar-pass" class="selector" aria-live="polite"><div><div class="eyebrow">Monte sua experiência</div><h2 class="choice-title" id="passTitle">Primeiro, escolha seu PASS.</h2><p id="passDescription">Clique em uma das opções acima para continuar.</p><div class="chip" id="selectedTag">AGUARDANDO ESCOLHA</div></div><div><div class="level-label">E agora escolha o nível</div><div class="levels" role="group" aria-label="Escolha o nível"><button class="level" data-level="Essencial" aria-pressed="true">Essencial</button><button class="level" data-level="Plus" aria-pressed="false">Plus</button><button class="level" data-level="Premium" aria-pressed="false">Premium</button></div><p class="level-copy" id="levelDescription">Essencial: consulte as condições especiais disponíveis para começar seus cuidados.</p><button class="whatsapp" id="whatsapp" type="button" disabled>QUERO CONHECER AS OFERTAS <span aria-hidden="true">↗</span></button><p class="smallprint">Você será direcionada ao WhatsApp oficial da Foxxy com o passe e nível escolhidos. Valores e composição são informados pela equipe e dependem de avaliação profissional. Nenhum pagamento é feito nesta página.</p></div></div>
+</div></section>
+<section class="how"><div class="wrap"><div class="section-heading"><div class="eyebrow">Simples, exclusivo, seu</div><h2>Uma Black que começa por você.</h2><p>Menos promoções soltas. Mais clareza sobre o cuidado que você procura.</p></div><div class="steps"><div class="step"><div class="index">01</div><h3>Escolha seu objetivo</h3><p>Selecione o passe com que você mais se identifica.</p></div><div class="step"><div class="index">02</div><h3>Selecione seu nível</h3><p>Essencial, Plus ou Premium: escolha a opção sobre a qual quer saber mais.</p></div><div class="step"><div class="index">03</div><h3>Converse com a Foxxy</h3><p>Envie sua escolha pelo WhatsApp e receba as condições disponíveis.</p></div></div></div></section>
+<section class="ending"><div class="eyebrow">Sua melhor versão começa por uma escolha</div><h2>Seu momento. Seu PASS. Sua Black.</h2><p>Converse com a equipe da Foxxy para conhecer as condições da campanha e descobrir o cuidado adequado para você.</p><a class="primary" href="#passes">ESCOLHER MEU PASS ↗</a></section>
+</main>
+<footer class="wrap footer"><strong>FOXXY</strong><span>Black Foxxy · Campanha especial · Condições sujeitas à disponibilidade e avaliação.</span><a href="https://www.instagram.com/espacofoxxy/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></footer>
+<script>
+(function(){
+  'use strict';
+  const passes={
+    'Rosto':'Harmonia, expressão e contornos: encontre uma proposta alinhada ao seu rosto.',
+    'Corpo':'Para quem deseja conversar sobre contorno, firmeza e cuidados corporais.',
+    'Glúteos':'Um convite a cuidar de contorno, textura e firmeza com orientação profissional.',
+    'Pele':'Para quem deseja priorizar viço, textura, renovação e cuidados personalizados.',
+    'Autocuidado':'Para quem busca relaxamento, leveza e tempo de qualidade para si.'
+  };
+  const levels={
+    'Essencial':'Essencial: conheça a condição de entrada para começar a cuidar de você.',
+    'Plus':'Plus: consulte as possibilidades de uma experiência ampliada para seu objetivo.',
+    'Premium':'Premium: descubra as condições para uma experiência mais completa e personalizada.'
+  };
+  let pass=null,level='Essencial';
+  const cards=[...document.querySelectorAll('[data-pass]')],levelBtns=[...document.querySelectorAll('[data-level]')];
+  const title=document.getElementById('passTitle'),desc=document.getElementById('passDescription'),tag=document.getElementById('selectedTag'),btn=document.getElementById('whatsapp'),levelDescription=document.getElementById('levelDescription');
+  function render(){
+    cards.forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.pass===pass)));
+    levelBtns.forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.level===level)));
+    title.textContent=pass?'PASS '+pass.toLocaleUpperCase('pt-BR'):'Primeiro, escolha seu PASS.';
+    desc.textContent=pass?passes[pass]:'Clique em uma das opções acima para continuar.';
+    tag.textContent=pass?('PASS '+pass.toLocaleUpperCase('pt-BR')+' · '+level.toLocaleUpperCase('pt-BR')):'AGUARDANDO ESCOLHA';
+    levelDescription.textContent=levels[level];btn.disabled=!pass;
+  }
+  cards.forEach(el=>el.addEventListener('click',()=>{pass=el.dataset.pass;render();document.getElementById('montar-pass').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'center'});}));
+  levelBtns.forEach(el=>el.addEventListener('click',()=>{level=el.dataset.level;render();}));
+  btn.addEventListener('click',()=>{
+    if(!pass)return;
+    const message='Olá! Vi a campanha Black Foxxy e quero conhecer as condições especiais do PASS '+pass.toLocaleUpperCase('pt-BR')+' — nível '+level+'. Poderiam me informar as opções, valores e como funciona a avaliação?';
+    const url='https://wa.me/5521970087151?text='+encodeURIComponent(message);
+    window.open(url,'_blank','noopener,noreferrer');
+  });
+  render();
+})();
+</script>
+</body>
+</html>
